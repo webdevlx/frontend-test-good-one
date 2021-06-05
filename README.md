@@ -1,24 +1,21 @@
 # frontend-test
 
-## Project setup
+## Bog'liqliklarni o'rnatish uchun:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Serverni ishlatish uchun
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### json-serverni o'rnatish uchun
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install -g json-server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Soxta ma'lumotlar bazasini ishlatish uchun
+```
+json-server --watch db.json
+```

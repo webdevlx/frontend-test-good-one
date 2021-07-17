@@ -28,4 +28,7 @@ export default {
 </script>
 
 <style scoped>
+* {
+  font-family: "Fira Sans";
+}
 </style>

@@ -4,7 +4,7 @@ export default {
   actions: {
     fetchCategories(context) {
       return new Promise((resolve, reject) => {
-        axios.get('http://localhost:3000/categories')
+        axios.get('https://my-json-server.typicode.com/webdevlx/frontend-test-good-one/categories')
           .then(response => {
             context.commit('UPDATE_CATEGORIES', response.data)
 						resolve()

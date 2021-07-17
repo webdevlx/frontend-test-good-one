@@ -13,7 +13,7 @@ export default {
       }
 
       return new Promise((resolve, reject) => {
-        axios.get('http://localhost:3000/products' + id)
+        axios.get('https://my-json-server.typicode.com/webdevlx/frontend-test-good-one//products' + id)
           .then(response => {
             context.commit('UPDATE_PRODUCTS', response.data)
 						resolve()

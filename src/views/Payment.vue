@@ -1,5 +1,14 @@
 <template>
   <div>
+
+    <div class="row">
+      <div class="col-12 my-3">
+        <router-link to="/">
+          Asosiy Sahifa
+        </router-link>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-3">
         <div class="card my-3">

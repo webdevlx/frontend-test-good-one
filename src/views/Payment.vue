@@ -10,7 +10,7 @@
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-md-3">
         <div class="card my-3">
           <div class="card-body">
             <h5 class="card-title">Buyurtmalar haqida</h5>
@@ -31,7 +31,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-12 col-md-9">
         <div class="d-grid my-3">
           <input type="text" v-model="payment" class="form-control" />
         </div>

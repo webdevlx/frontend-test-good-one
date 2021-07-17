@@ -84,7 +84,7 @@
         </div>
       </div>
 
-      <div class="d-grid">
+      <div class="d-grid my-3">
         <router-link class="btn btn-primary" to="/payment">To'lovni amalga oshirish</router-link>
       </div>
     </div>
